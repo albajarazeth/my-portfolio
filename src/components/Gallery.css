@@ -1,0 +1,12 @@
+.image-conatiner{
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+}
+.gallery-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

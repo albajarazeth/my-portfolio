@@ -1,0 +1,18 @@
+.projects-container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+.title{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.title-container{
+    padding: 2rem;
+}
+.gallery-container{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

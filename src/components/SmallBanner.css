@@ -1,0 +1,28 @@
+.notification-contianer{
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    right: 15px;
+    width: 7%;
+    min-width: 200px;
+    background-color: white;
+    padding: .5rem 1rem;
+    border-bottom: 3px solid gray;
+    animation-name: slideIn;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.notification-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes slideIn {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 20;
+    }
+  }
